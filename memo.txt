@@ -18,6 +18,13 @@ https://atcoder.jp/contests/abc032/tasks/abc032_d
 
 <<note>>
 
+D - Knight
+組み合わせ+逆元
+C(x + y, y) = (x + y)! / (x! * y!)
+x / y % mod = x * (y^(mod - 2))
+abc034_cと一緒
+https://atcoder.jp/contests/abc145/tasks/abc145_d
+
 D - Rain Flows into Dams
 数学問題,式変形,お気に入り
 https://atcoder.jp/contests/abc133/tasks/abc133_d
