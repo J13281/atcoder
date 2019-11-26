@@ -1,0 +1,266 @@
+<<最新>>
+https://atcoder.jp/contests/abc143
+
+<<残り>>
+https://atcoder.jp/contests/dp
+https://atcoder.jp/contests/abc116
+
+セグメントツリー??
+
+ナップサック問題
+ナップサックDPフルセット
+重さで回すか価値で回すか
+  ソルバー的なすごいやつあるっぽい
+https://atcoder.jp/contests/abc032/tasks/abc032_d
+
+
+2^x は 1<<x
+
+<<note>>
+
+D - Rain Flows into Dams
+数学問題,式変形,お気に入り
+https://atcoder.jp/contests/abc133/tasks/abc133_d
+
+D - Preparing Boxes
+確定できるところから始める
+1indexと0indexがややこい
+https://atcoder.jp/contests/abc134/tasks/abc134_d
+
+D - Disjoint Set of Common Divisors
+数学問題,約数,素因数分解,gcd
+https://atcoder.jp/contests/abc142/tasks/abc142_d
+
+D - Enough Array
+尺取り法と応用
+https://atcoder.jp/contests/abc130/tasks/abc130_d
+
+C - Build Stairs
+https://atcoder.jp/contests/abc136/tasks/abc136_c
+1引けるなら引く貪欲
+
+C - Exception Handling
+両端から累積和
+https://atcoder.jp/contests/abc134/tasks/abc134_c
+
+C - Divide the Problems
+同じ数ずつ2分割
+https://atcoder.jp/contests/abc132/tasks/abc132_c
+
+Anti-Division
+GCDとLCM
+gcd x y = x == 0 ? y : gcd(y % x, x);
+lcm x y = x * y / gcd(x, y);
+
+https://atcoder.jp/contests/abc131/tasks/abc131_c
+
+XXOR
+桁DP 後でやり直す
+https://atcoder.jp/contests/abc117/tasks/abc117_d
+
+Lamp
+縦横で累積和
+https://atcoder.jp/contests/abc129/tasks/abc129_d
+
+Typical Stairs
+DPと二分探索
+https://atcoder.jp/contests/abc129/tasks/abc129_c
+
+Match Matching
+DP問題
+https://atcoder.jp/contests/abc118/tasks/abc118_d
+
+Lazy Faith
+二分探索しまくる
+https://atcoder.jp/contests/abc119/tasks/abc119_d
+
+Decayed Bridges
+UnionFindつかえ
+https://atcoder.jp/contests/abc120/tasks/abc120_d
+
+XOR World
+連番xorは隣同士で1,4つごとに0になる
+https://atcoder.jp/contests/abc121/tasks/abc121_d
+
+We Like AGC
+4次元DP問題むずい
+https://atcoder.jp/contests/abc122/tasks/abc122_d
+
+Cake 123
+AとBとCの組み合わせを考える時、(AとBの組み合わせ)とCの組み合わせって考える
+または a位,b位,c位のうち、a*b*cがk超えてたら絶対k位以内にはいらない
+https://atcoder.jp/contests/abc123/tasks/abc123_d
+
+Handstand
+累積和応用
+https://atcoder.jp/contests/abc124/tasks/abc124_d
+
+Flipping Signs
+数列の意図に気づくこと/動的計画法でもいい
+https://atcoder.jp/contests/abc125/tasks/abc125_d
+
+Even Relation
+木の探索/木の性質
+頂点の接続はList<Tuple<int,int>>[]で持つといい
+https://atcoder.jp/contests/abc126/tasks/abc126_d
+
+Integer Cards
+要素/要素数のペアで管理する
+https://atcoder.jp/contests/abc127/tasks/abc127_d
+
+Unification
+考え方
+https://atcoder.jp/contests/abc120/tasks
+
+Energy Drink Collector
+目標数と買える数の小さいほうを選ぶ
+https://atcoder.jp/contests/abc121/tasks/abc121_c
+
+<<memo>>
+
+equeue
+複数操作が順番に意味があるか、区別があるか考える
+https://atcoder.jp/contests/abc128/tasks/abc128_d
+
+風力観察
+角度でグループ分け/銀行丸めと四捨五入の違い(5は直近の偶数に行く)
+Math.Round(0.25, 1) -> 0.2
+Math.Round(0.25, 1, MidpointRounding.AwayFromZero) -> 0.3
+https://atcoder.jp/contests/abc001/tasks/abc001_3
+
+Switches
+組み合わせ全探索
+もっと早い方法あるらしい
+https://atcoder.jp/contests/abc128/tasks/abc128_c
+
+Dice and Coin
+確率計算
+https://atcoder.jp/contests/abc126/tasks/abc126_c
+
+Prison
+いもす法
+https://atcoder.jp/contests/abc127/tasks/abc127_c
+
+GCD on Blackboard
+結合則を満たすなら、左からの累積と右からの累積を計算しても同じになる
+indexのつじつま合わせの練習
+https://atcoder.jp/contests/abc125/tasks/abc125_c
+
+コイン
+期待値/約数/確率
+くそむずい 無理やろこれ
+https://atcoder.jp/contests/abc008/tasks/abc008_3
+
+辞書式順序ふたたび
+枝刈りDFS 部分問題が不通にむずい
+https://atcoder.jp/contests/abc009/tasks/abc009_3
+
+収集王
+行ごと列ごとに集計するやつ
+https://atcoder.jp/contests/abc023/tasks/abc023_c
+
+民族大移動
+条件分岐の整理
+https://atcoder.jp/contests/abc024/tasks/abc024_c
+
+列
+尺取り法
+https://atcoder.jp/contests/abc032/tasks/abc032_c
+
+経路
+組み合わせを計算して逆元をかける
+x / y % mod = x * (y^mod-2)
+累乗はO(log n)で計算でする
+https://atcoder.jp/contests/abc034/tasks/abc034_c
+
+オセロ
+いもす法
+https://atcoder.jp/contests/abc035/tasks/abc035_c
+
+テレビ
+a:b=x:y -> ay=bx
+https://atcoder.jp/contests/abc035/tasks/abc035_a
+
+単調増加
+for文練習 配列分割
+https://atcoder.jp/contests/abc038/tasks/abc038_c
+
+Sugar Water
+全探索
+https://atcoder.jp/contests/abc074/tasks/arc083_a
+
+直訴
+3点を結ぶ三角形の面積 符号付面積の公式
+(0,0),(a,b),(c,d) -> |ad-bc|/2
+https://atcoder.jp/contests/abc002/tasks/abc002_3
+
+AtCoderトランプ
+条件分岐の整理
+https://atcoder.jp/contests/abc003/tasks/abc003_2
+
+おいしいたこ焼きの売り方
+独立した二つのindex
+https://atcoder.jp/contests/abc005/tasks/abc005_3
+
+スフィンクスのなぞなぞ
+連立方程式 つるかめ算
+O(N^3) -> O(N^2) -> O(N) -> O(1)にできる
+https://atcoder.jp/contests/abc006/tasks/abc006_3
+
+入浴時間
+時分秒変換
+h = n / 3600, m = n / 60 % 60, s = n % 60
+https://atcoder.jp/contests/abc012/tasks/abc012_2
+
+節制
+式変形
+単純にむずい
+https://atcoder.jp/contests/abc013/tasks/abc013_3
+
+A
+'A'から何番目→'A'をひけばいい
+https://atcoder.jp/contests/abc013/tasks/abc013_1
+
+AtColor
+いもす法
+https://atcoder.jp/contests/abc014/tasks/abc014_3
+
+価格の合計
+x の i bit目が1かどうか
+(x >> i & 1) == 1
+https://atcoder.jp/contests/abc014/tasks/abc014_2
+
+高橋くんのバグ探し
+排他的論理和
+  a ^ b
+https://atcoder.jp/contests/abc015/tasks/abc015_3
+
+高橋くんの集計
+割って切り上げ
+  ceil(x, y) = (x + y - 1) / y
+https://atcoder.jp/contests/abc015/tasks/abc015_2
+
+友達の友達
+ワーシャルフロイド
+https://atcoder.jp/contests/abc016/tasks/abc016_3
+
+ハイスコア
+いもす法
+https://atcoder.jp/contests/abc017/tasks/abc017_3
+
+菱型カウント
+マンハッタン距離&最適化?
+https://atcoder.jp/contests/abc018/tasks/abc018_3
+
+豆まき
+順位
+  自分より上に何人いるか
+https://atcoder.jp/contests/abc018/tasks/abc018_1
+
+Shopping Street
+bit演算
+https://atcoder.jp/contests/abc080/tasks/abc080_c
+
+壁抜け
+ダイクストラ&二分探索 ヒープ 優先度付きキュー
+https://atcoder.jp/contests/abc020/tasks/abc020_c

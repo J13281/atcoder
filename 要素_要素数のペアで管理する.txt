@@ -1,0 +1,25 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        var pairs = new[] {
+            Tuple.Create(3, 2),
+            Tuple.Create(2, 4),
+            Tuple.Create(1, 6),
+        };
+
+        //n個を列挙
+        var n = 10;
+
+        //jがindexになる
+        for (int i = 0, j = 0; j < n && i < pairs.Length; i++)
+        {
+            for (int k = 0; j < n && k < pairs[i].Item2; j++, k++)
+            {
+                Console.WriteLine(pairs[i].Item1);
+            }
+        }
+    }
+}

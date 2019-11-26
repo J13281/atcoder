@@ -1,0 +1,7 @@
+static int binsearch(int[] d, int n, int i, int k)
+{
+    var j = (i + k) / 2;
+    if (i == k) return i;
+    else if (n < d[j]) return binsearch(d, n, i, j);
+    else return binsearch(d, n, j + 1, k);
+}
