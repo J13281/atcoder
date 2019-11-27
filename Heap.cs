@@ -2,8 +2,6 @@ class Heap<T> where T : IComparable
 {
     public HeapNode<T> top;
 
-    public Heap() { }
-
     public void push(T val)
     {
         top = HeapNode<T>.meld(top, new HeapNode<T>(val));
