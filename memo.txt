@@ -18,6 +18,11 @@ https://atcoder.jp/contests/abc032/tasks/abc032_d
 
 <<note>>
 
+D - Summer Vacation
+優先度付きキュー
+解法を思いつくのが難しい
+https://atcoder.jp/contests/abc137/tasks/abc137_d
+
 D - Coloring Edges on Tree
 探索問題
 解法を思いつくのが難しいけど実装は楽
