@@ -18,6 +18,10 @@ https://atcoder.jp/contests/abc032/tasks/abc032_d
 
 <<note>>
 
+D - Christmas
+DPと再帰を使って同じ計算をしない
+https://atcoder.jp/contests/abc115/tasks/abc115_d
+
 D - Summer Vacation
 優先度付きキュー
 解法を思いつくのが難しい
